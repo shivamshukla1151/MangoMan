@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEEEEE;
+    
+}
+.logo-container{
+    height: 100px;
+    width: 130px;
+    display: inline-block;
+    background-size: cover;
+     overflow: hidden;
+     align-items: center;
+
+ 
+}
+.logo{
+    height: 80px;
+     width: 80px;
+     margin-top: 10px;
+     margin-left: 50px;
+    }
+.nav-items{
+    display: flex;
+    align-items: center;
+
+}
+.nav-item{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.total{
+    margin-right: 50px;
+}
