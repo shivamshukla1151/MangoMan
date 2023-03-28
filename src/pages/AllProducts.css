@@ -1,0 +1,25 @@
+.allProduct-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.spacer {
+  height: 60px;
+}
+.filter-items {
+  position: sticky;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 20px;
+  width: 120px;
+  cursor: pointer;
+  padding-top: 60px;
+  margin-left: 10px;
+}
+
+.component-wrapper {
+  padding-top: 20px;
+  position: relative;
+  display: flex;
+}

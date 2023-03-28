@@ -1,0 +1,108 @@
+.singleProduct-wrapper {
+  position: relative;
+  /* display: flex; */
+  /* z-index: 10000; */
+  /* max-width: 650px; */
+}
+.spacer {
+  height: 60px;
+}
+
+.singleProduct-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 50px 0px 0px 0px;
+  min-height: 850px;
+  /* background-color: aquamarine; */
+}
+.product-details {
+  background-color: aqua;
+}
+.detail-wrapper {
+  width: 50%;
+  max-height: 500px;
+  overflow: scroll;
+
+  margin: 60px 0px 0px 60px;
+  text-align: left;
+}
+.detail-wrapper li {
+  list-style: none;
+}
+/* Set the width and height of the scrollbar */
+.detail-wrapper::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+.detail-wrapper::-moz-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+.detail-wrapper::-ms-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+/* Set the color of the scrollbar thumb */
+.detail-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgb(35, 34, 36);
+}
+
+.detail-wrapper::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.detail-wrapper::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.detail-wrapper::-ms-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.product-images {
+}
+.product-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 550px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.prod-img {
+  margin: 0;
+  height: 550px;
+}
+.product-image::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+.product-image::-moz-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+.product-image::-ms-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+/* Set the color of the scrollbar thumb */
+.product-image::-webkit-scrollbar-thumb {
+  background-color: rgb(35, 34, 36);
+}
+
+.product-image::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.product-image::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+}
+.product-image::-ms-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.product-pricing {
+}

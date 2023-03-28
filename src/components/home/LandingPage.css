@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+.video {
+  margin: 0px;
+}
+.pictures {
+  position: relative;
+  display: flex;
+  min-height: 650px;
+  margin: 0px;
+}
+.pic1 {
+  background-image: url("../../resources/men8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: auto;
+  margin-left: 3px;
+  /* margin: auto; */
+}
+.pic2 {
+  position: relative;
+  background-image: url("../../resources/men9.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  margin-left: 3px;
+}
+.typewriter {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pic3 {
+  position: relative;
+
+  min-height: 500px;
+  width: 500px;
+  margin: 20px 0px 0px 0px;
+  background-image: url("../../resources/typewriter.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-left: 3px;
+}
+.pic4 {
+  position: relative;
+  min-height: 500px;
+  width: 500px;
+  margin: 20px 0px 0px 0px;
+  background-image: url("../../resources/men10.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-left: 3px;
+}
+.pic5 {
+  position: relative;
+  min-height: 500px;
+  width: 500px;
+  margin: 20px 0px 0px 0px;
+  background-image: url("../../resources/men11.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-left: 3px;
+}
+.pic6 {
+  position: relative;
+  min-height: 500px;
+  width: 500px;
+  margin: 20px 0px 0px 0px;
+  background-image: url("../../resources/women5.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-left: 3px;
+}

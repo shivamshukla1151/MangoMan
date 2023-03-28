@@ -1,0 +1,38 @@
+.product-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  z-index: 0;
+}
+
+.card {
+  background-size: cover;
+  overflow: hidden;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  height: 280px;
+  /* border-radius: 10px; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.img {
+  height: 150px;
+}
+.btn {
+  border: none;
+  border: none;
+  outline: none;
+  background: #605674;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #4d455d;
+}
